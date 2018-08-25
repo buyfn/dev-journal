@@ -7,7 +7,7 @@ title: Копирование объектов в джаваскрипте
 
 ```
 const obj = { a: 1, b: 2, c: 3 }
-obj[b] = 100
+obj.b = 100
     
 console.log(obj)
 > { a: 1, b: 100, c: 3 };
